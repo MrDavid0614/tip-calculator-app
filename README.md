@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/MrDavid0614/tip-calculator-app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/tip-calulator-app-using-vuejs-zCvg454mo)
 - Live Site URL: [Tip Calculator App](https://tip-calculator-app06.netlify.app/)
 
 ## My process
