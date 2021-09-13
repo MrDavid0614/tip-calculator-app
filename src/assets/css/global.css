@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-grayish-cyan: hsl(185, 41%, 84%);
+    --lightest-grayish-cyan: hsl(189, 41%, 97%);
+    --very-dark-cyan: hsl(183, 100%, 15%);
+    --strong-cyan: hsl(172, 67%, 45%);
+    --main-font-size: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: var(--light-grayish-cyan);
+    color: #575757;
+}
+
+input {
+  font-family: 'Space Mono', monospace;
+}
+
+/* 
+
+    HIDE ARROWS OF TYPE NUMBER INPUTS
+
+*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
